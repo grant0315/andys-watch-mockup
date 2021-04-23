@@ -251,6 +251,10 @@ footer .copyright
         margin-bottom: 20px;
         display: block;
     }
+
+    .section {
+        position: absolute;
+    }
 }
 
 
