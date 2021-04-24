@@ -252,44 +252,58 @@ footer .copyright
         display: block;
     }
 
-    .section {
+    .portfolio {
         position: absolute;
     }
 }
 
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {  
+@media (max-width: 992px) {  
     .header-text h1 {
-        font-size: 45px;
+        font-size: 80px;
     }
 
     .header-text p {
-        font-size: 20px;
+        font-size: 40px;
         color: #fff;
     }
 
     .feature-box h1 {
-        font-size: 25px;
+        font-size: 50px;
         text-transform: uppercase;
         font-weight: 600;
         margin-top: 1em;
     }
+
+    .watch-listing {
+        height: 80%;
+        width: 80%;
+        margin-left: 10%;
+    }
 	
     .feature-box p {
-        font-size: 18px;
+        font-size: 30px;
         text-align: justify;
     }
 
+    .portfolio h3 {
+        font-size: 40px;
+    }
+
+    .portfolio p {
+        font-size: 30px;
+    }
+
     .call-top-action h1 {
-        font-size: 25px;
+        font-size: 60px;
         text-transform: uppercase;
         margin-bottom: 13px !important;
         margin: 0px;
     }
 
     .call-top-action p {
-        font-size: 14px;
+        font-size: 25px;
         margin-bottom: 13px;
     }
 
@@ -318,8 +332,14 @@ footer .copyright
         font-size: 18px;
     }
 
+    footer ul li a span {
+        width: 80px;
+        height: 80px;
+    }
 
-
+    .fa::before {
+        margin: 0 auto;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
